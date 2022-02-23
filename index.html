@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>site.title - Kuartz</title>
+    <meta name="description" content="">
+
+<!-- Facebook Open Graph data -->
+<meta property="og:title" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://usages.kuartz.fr" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="" />
+<meta property="og:site_name" content="" />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="guicabanel">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="guicabanel">
+<meta name="twitter:image:src" content="">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="assets/images/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body class="min-h-screen relative pb-64">
+    <header class="container mx-auto flex justify-between items-center py-6 border-b">
+  <section class="flex">
+    <img src="/assets/images/kuartz.svg" class="h-6 my-2 mx-4 lg:ml-0 lg:mr-4" alt="Kuartz" />
+    <nav class="hidden lg:flex">
+      <a class="mx-3 py-3 px-1 text-sm font-medium text-gray-700 hover:text-gray-600 hover:underline" href="https://www.kuartz.fr/produit">PRODUIT</a>
+      <a class="mx-3 py-3 px-1 text-sm font-medium text-gray-700 hover:text-gray-600 hover:underline" href="https://www.kuartz.fr/secteurs">SECTEURS</a>
+      <a class="mx-3 py-3 px-1 text-sm font-medium text-gray-700 hover:text-gray-600 hover:underline" href="/">CAS D'USAGES</a>
+      <a class="mx-3 py-3 px-1 text-sm font-medium text-gray-700 hover:text-gray-600 hover:underline" href="https://www.kuartz.fr/a-propos">À PROPOS</a>
+    </nav>
+  </section>
+
+  <section class="flex">
+    <a class="hidden lg:block mx-3 py-3 px-1 text-sm font-medium text-gray-700 hover:text-gray-600 hover:underline" href="https://app.kuartz.fr/">SE CONNECTER</a>
+    <a class="ml-3 py-3 px-2 text-sm font-medium text-white bg-[#22234C] rounded shadow" href="https://www.kuartz.fr/#section-contact">CONTACTEZ-NOUS</a>
+
+    <button id="toggle-menu" aria-label="Menu" class="mx-4 lg:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </section>
+</header>
+<nav id="mobile-nav" class="hidden">
+  <a class="py-4 block w-full text-sm font-medium text-gray-700 text-center border-b" href="https://www.kuartz.fr/produit">PRODUIT</a>
+  <a class="py-4 block w-full text-sm font-medium text-gray-700 text-center border-b" href="https://www.kuartz.fr/secteurs">SECTEURS</a>
+  <a class="py-4 block w-full text-sm font-medium text-gray-700 text-center border-b" href="/">CAS D'USAGES</a>
+  <a class="py-4 block w-full text-sm font-medium text-gray-700 text-center border-b" href="https://www.kuartz.fr/a-propos">À PROPOS</a>
+</nav>
+
+<script>
+  const button = document.getElementById("toggle-menu");
+  const mobileNav = document.getElementById("mobile-nav");
+
+  button.addEventListener("click", (event) => {
+    mobileNav.classList.toggle("hidden");
+  })
+</script>
+
+    <div class="container mx-auto lg:mt-36">
+      <p><a href="/totalenergies">TotalEnergies</a></p>
+
+    </div>
+    <footer class="absolute bottom-0 w-full mt-16 bg-[#1A202C] text-white">
+  <section class="container px-8 lg:px-0 lg:mx-auto py-8">
+    <img src="assets/images/kuartz-white.png" alt="Kuartz" class="h-6">
+    <p class="text-sm mt-4 font-light">
+      27 rue de la Noue Bras de Fer
+      <br>
+      44200 Nantes
+    </p>
+
+  </section>
+  <hr>
+  <section class="container px-8 lg:px-0 lg:mx-auto py-4">
+    <p class="text-xs text-gray-300">© 2022 - Kuartz. Tous droits réservés.</p>
+  </section>
+</footer>
+
+  </body>
+</html>
