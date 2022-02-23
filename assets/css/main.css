@@ -478,34 +478,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
-.left-0 {
-  left: 0px;
-}
-
-.left-\[-1\] {
-  left: -1;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.-z-10 {
-  z-index: -10;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
 .m-8 {
   margin: 2rem;
 }
@@ -568,14 +540,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 4rem;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
-}
-
-.-mt-2 {
-  margin-top: -0.5rem;
-}
-
 .block {
   display: block;
 }
@@ -598,10 +562,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-full {
   height: 100%;
-}
-
-.h-8 {
-  height: 2rem;
 }
 
 .min-h-screen {
@@ -658,16 +618,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(34 35 76 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/assets\/images\/solar\.jpg\'\)\] {
-  background-image: url('/assets/images/solar.jpg');
+.bg-\[url\(\'\/assets\/images\/solar\.webp\'\)\] {
+  background-image: url('/assets/images/solar.webp');
 }
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/assets\/images\/marc\.png\'\)\] {
-  background-image: url('/assets/images/marc.png');
+.bg-\[url\(\'\/assets\/images\/marc\.webp\'\)\] {
+  background-image: url('/assets/images/marc.webp');
 }
 
 .from-\[\#22234CFF\] {
@@ -701,34 +661,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.fill-gray-300 {
-  fill: #d1d5db;
-}
-
-.fill-gray-500 {
-  fill: #6b7280;
-}
-
-.fill-gray-400 {
-  fill: #9ca3af;
-}
-
-.fill-\[\#22234C11\] {
-  fill: #22234C11;
-}
-
-.fill-\[\#22234CFF\] {
-  fill: #22234CFF;
-}
-
-.fill-\[\#22234CAA\] {
-  fill: #22234CAA;
-}
-
-.fill-\[\#22234CDD\] {
-  fill: #22234CDD;
 }
 
 .px-8 {
