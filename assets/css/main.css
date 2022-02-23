@@ -487,19 +487,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .mt-6 {
@@ -512,18 +507,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mb-16 {
@@ -546,10 +529,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
@@ -564,10 +543,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .bg-\[\#22234C\] {
@@ -585,6 +560,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[url\(\'\/assets\/images\/marc\.png\'\)\] {
   background-image: url('/assets/images/marc.png');
+}
+
+.bg-\[url\(\'\/assets\/images\/solar\.jpg\'\)\] {
+  background-image: url('/assets/images/solar.jpg');
 }
 
 .from-\[\#22234CFF\] {
@@ -620,28 +599,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-repeat: no-repeat;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-medium {
@@ -692,13 +662,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 640px) {
-  .sm\:my-16 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:m-12 {
     margin: 3rem;
@@ -718,12 +681,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 9rem;
   }
 
-  .lg\:mt-8 {
-    margin-top: 2rem;
-  }
-
   .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
   }
 
   .lg\:block {
