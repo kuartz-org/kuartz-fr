@@ -4,13 +4,10 @@ on:
   push:
     branches:
       - master
-      # - source
-      # It is highly recommended that you only run this action on push to a
-      # specific branch, eg. master or source (if on *.github.io repo)
 
 jobs:
   jekyll:
-    runs-on: ubuntu-16.04 # can change this to ubuntu-latest if you prefer
+    runs-on: ubuntu-latest
     steps:
       - name: 📂 setup
         uses: actions/checkout@v2
@@ -23,7 +20,7 @@ jobs:
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6 # can change this to 2.7 or whatever version you prefer
+          ruby-version: 3.0.3
 
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
