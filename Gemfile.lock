@@ -67,5 +67,8 @@ DEPENDENCIES
   jekyll-postcss (~> 0.5.0)
   webrick
 
+RUBY VERSION
+   ruby 3.0.3p157
+
 BUNDLED WITH
    2.3.7
