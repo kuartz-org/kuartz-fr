@@ -8,9 +8,7 @@ module.exports = {
     './*.html',
   ],
   theme: {
-    extend: {
-
-    }
+    extend: {}
   },
   variants: {
     extend: {},
