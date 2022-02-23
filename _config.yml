@@ -11,12 +11,22 @@ github_username:  kuartz-org
 plugins:
   - jekyll-postcss
 
-css_dir: "assets/css"
+sass:
+  sourcemap: never
+
+postcss:
+  cache: false
 
 exclude:
+  - .gitignore
   - node_modules/
   - yarn.lock
   - postcss.config.js
   - tailwind.config.js
   - package.json
   - README.md
+
+# files Jekyll should not delete from .site
+keep_files:
+  - assets/css/tailwind.css
+  - assets/css/tailwind.css.map

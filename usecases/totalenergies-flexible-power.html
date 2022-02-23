@@ -10,67 +10,86 @@ title:  "Plateforme de gestion de production et de marché d'énergies renouvela
 brand:  "TotalEnergies"
 ---
 
-<div class="lg:grid grid-cols-2 gap-24 2xl:gap-32">
-  <div class="bg-[#22234C] relative text-white lg:rounded-2xl shadow-xl h-64 lg:h-96 overflow-hidden">
-    <div class="bg-[url('/assets/images/solar.webp')] bg-no-repeat bg-cover h-full">
-      <div class="bg-gradient-to-t from-[#22234CFF] to-[#22234C11] h-full">
-        <div class="bg-[url('/assets/images/marc.webp')] bg-no-repeat bg-contain bg-right-bottom h-full">
-          <div class="bg-gradient-to-t from-[#22234CFF] via-transparent to-transparent] h-full">
-            <div class="absolute bottom-0 m-8 2xl:m-12 2xl:w-1/2">
-              <p class="font-medium text-lg">
-                Merci pour la qualité de leur plateforme<br>qui nous rend beaucoup de services
-              </p>
-              <p class="font-semibold mt-6 text-gray-300">
-                Marc DEROUET <span class="text-gray-400">business development<br>TotalEnergies Flexible Power</span>
-              </p>
+<section class="lg:mb-16 bg-[#22234C] py-8 2xl:py-16 text-white">
+  <div class="flex justify-center mb-8 2xl:mb-16">
+    <div class="bg-white p-4 rounded-xl">
+      <img src="assets/images/logo-totalenergies.svg" alt="TotalEnergies" class="h-32">
+    </div>
+  </div>
+
+  <h1 class="container mx-auto text-center lg:leading-relaxed text-4xl lg:text-5xl font-bold">
+    {{ page.title }}
+  </h1>
+</section>
+
+<div class="container mx-auto lg:mt-24">
+  <div class="lg:grid grid-cols-2 gap-24 2xl:gap-32">
+    <div class="bg-[#22234C] relative text-white lg:rounded-2xl shadow-xl h-64 lg:h-96 overflow-hidden">
+      <div class="bg-[url('/assets/images/solar.webp')] bg-no-repeat bg-cover h-full">
+        <div class="bg-gradient-to-t from-[#22234CFF] to-[#22234C11] h-full">
+          <div class="bg-[url('/assets/images/marc.webp')] bg-no-repeat bg-contain bg-right-bottom h-full">
+            <div class="bg-gradient-to-t from-[#22234CFF] via-transparent to-transparent] h-full">
+              <div class="absolute bottom-0 m-8 2xl:m-12 2xl:w-1/2">
+                <p class="font-medium text-lg">
+                  "Merci pour la qualité de leur plateforme<br>qui nous rend beaucoup de services."
+                </p>
+                <p class="font-semibold mt-6 text-gray-300">
+                  Marc DEROUET <span class="text-gray-400">business development<br>TotalEnergies Flexible Power</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="text-lg my-8 lg:my-0 mx-8 lg:mx-0 flex flex-col-reverse lg:block">
-    <section class="text-gray-700">
-      <h1 class="text-3xl lg:text-4xl font-bold mb-8 text-black">
-        {{ page.title }}
-      </h1>
+    <div class="text-lg my-8 lg:my-0 mx-8 lg:mx-0 flex flex-col-reverse lg:block">
+      <section class="text-gray-700">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-8 text-black">
+          Le challenge
+        </h2>
 
-      <p class="mb-4">
-        Gestion des données de 250 sites pour 2 types de clients Les producteurs d'énergie renouvelables
-        Les industriels bénéficiant de flexibilité électrique
-      </p>
+        <p class="mb-4">L'échange d'informations entre Total Energies Flexible Power et ses clients.</p>
 
-      <p class="mb-4">
-        Pour ces 2 acteurs, l'application permet la mise à disposition de données de marché et de production spécifiques
-        l'échange de l'information avec les clients de manière efficace (déclaration de production,
-        de maintenance, arrêt de production, etc).
-      </p>
-      <p class="mb-4">
-        Gestion des données de 250 sites pour 2 types de clients Les producteurs d'énergie renouvelables
-        Les industriels bénéficiant de flexibilité électrique
-      </p>
+        <ul class="list-disc ml-4">
+          <li class="mb-4">Limiter les trop nombreux échanges par mails et tâches répétitives devenant un problème dû à la croissance.</li>
+          <li class="mb-4">Avoir une seule plateforme de gestion pour Total Energies mais une exposition des informations séparés pour les clients.</li>
+          <li class="mb-4">Offrir une expérience utilisateur de qualité pour les clients.</li>
+          <li class="mb-4">Récupérer les données issues du datalake mis en place et permettre une interaction simple avec des données complexes (séries temporelles en particulier).</li>
+          <li class="mb-4">Avoir une plateforme permettant d'avoir une offre pour TEFP à l'état de l'art.</li>
+        </ul>
 
-      <p class="mb-4">
-        Pour ces 2 acteurs, l'application permet la mise à disposition de données de marché et de production spécifiques
-        l'échange de l'information avec les clients de manière efficace (déclaration de production,
-        de maintenance, arrêt de production, etc).
-      </p>
-    </section>
+        <h2 class="text-3xl lg:text-4xl font-bold my-8 text-black">
+          La solution apportée
+        </h2>
 
-    <section class="mb-16 lg:mb-0 lg:border-t lg:mt-8 lg:pt-8 flex justify-between">
-      <div>
-        <p class="text-gray-600">Utilisateurs</p>
-        <p class="text-4xl font-bold">400+</p>
-      </div>
-      <div>
-        <p class="text-gray-600">Site industriels</p>
-        <p class="text-4xl font-bold">250+</p>
-      </div>
-      <div>
-        <p class="text-gray-600">Emails/an</p>
-        <p class="text-4xl font-bold">-1k</p>
-      </div>
-    </section>
+        <p class="mb-4">Gestion des données de 250 sites pour 2 types de clients :</p>
+        <ul class="list-disc ml-4">
+          <li class="mb-4">Les producteurs d'énergie renouvelables.</li>
+          <li class="mb-4">Les industriels bénéficiant de flexibilité électrique.</li>
+        </ul>
+
+        <p class="mb-4">Pour ces 2 acteurs, l'application permet :</p>
+        <ul class="list-disc ml-4">
+          <li class="mb-4">La mise à disposition de données de marché et de production spécifiques.</li>
+          <li class="mb-4">L'échange de l'information avec les clients de manière efficace (déclaration de production, de maintenance, arrêt de production, etc).</li>
+        </ul>
+      </section>
+
+      <section class="mb-16 lg:mb-0 lg:border-t lg:mt-8 lg:pt-8 flex justify-between">
+        <div>
+          <p class="text-gray-600">Utilisateurs</p>
+          <p class="text-4xl font-bold">400+</p>
+        </div>
+        <div>
+          <p class="text-gray-600">Site industriels</p>
+          <p class="text-4xl font-bold">250+</p>
+        </div>
+        <div>
+          <p class="text-gray-600">Emails/an</p>
+          <p class="text-4xl font-bold">-1k</p>
+        </div>
+      </section>
+    </div>
   </div>
 </div>
